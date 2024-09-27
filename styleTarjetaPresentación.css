@@ -1,8 +1,10 @@
 .contenido{
     border: 5px black solid;
-   height: 300px;
-   width: 600px;
-   background: radial-gradient(rgba(255, 224, 50, 0.986), rgb(192, 190, 190));
+    height: 300px;
+    width: 600px;
+    background: radial-gradient(rgba(255, 224, 50, 0.986), rgb(192, 190, 190));
+    margin: auto;
+    border-radius: 50px;
 }
 h2{
     color: rgb(0, 0, 0);
