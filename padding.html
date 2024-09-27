@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño avanzado</title>
+    <style>
+        .imagen{
+            border: 10px solid;
+            position: absolute;
+            width: 600px;
+            height: 400px;
+            background-color: red;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }   
+        .imagen div{
+            border: 10px solid;
+            width: 500px;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            background-color: aqua;
+        }
+        .imagen div div{
+            height: 200px;
+            width: 400px;
+            background-color: orange;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS margin</h3>
+    <p>Establece el margen de los laterales, estos margenes se pueden especificar uno a una si queremos margen arriba, abajo, derecha o izquierda, pero si ponemos margin a secas se pondra el mismo margen en los 4 lados.</p>
+    <h3>CSS padding</h3>
+    <p>Establece el área de relleno, aquí tambien se pueden especificar entre arriba, abajo, izquierda y derecha, si ponemos padding a secas se pondrá el mismo relleno en todos los lados.</p>
+    <h3>CSS border</h3>
+    <p>Establece los bordes de un elementos, aquí tambien podemos especificar que lado queremos y si ponemos border a secas tambien se pondrá en los 4 lados.</p>
+    <h3>CSS width and height</h3>
+    <p>Width establece el ancho de un elemento mientras que Height establece el alto, estas dos caracteristicas se pueden poner con diferentes unidades de medidas como por ejemplo pixeles, porcetajes, viewport para hacerlos responisve, etc.</p>
 
+    <div class="imagen"> 
+        <div> 
+            <div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
