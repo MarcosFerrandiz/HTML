@@ -1,0 +1,31 @@
+.contenido{
+    border: 3px solid black;
+    margin: auto;
+    height: auto;
+    width: auto;
+    max-width: 700px;
+    padding: 25px;
+    background-color: yellowgreen;
+}
+img{
+    height: 300px;
+    margin-left: 26%;
+}
+h2{
+    color: red;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+}
+p{
+    max-width: 400px;
+    text-align: center;
+    color: tomato;
+    margin: auto;
+    margin-bottom: 40px;
+}
